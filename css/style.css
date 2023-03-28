@@ -1,5 +1,11 @@
 /*========================================================================*/
 
+.root {
+  --background-color: #fcfcfc;
+  --primary-color: #0b132b;
+  --secondary-color: #db93b0;
+}
+
 /* ///////////////////////////////////////////////////////////////////// 
 // 03 - Preloader
 /////////////////////////////////////////////////////////////////////*/
@@ -19,20 +25,15 @@
 	Global Styles
 ========================================================================== */
 
-.root {
-  --background-color: #fcfcfc;
-  --primary-color: #0b132b;
-  --secondary-color: #db93b0;
-}
-
 a {
-  color: #e04343;
+  color: #0b132b;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
   border-bottom: 1px dashed;
   outline: none !important;
+  text-decoration: none;
 }
 a:hover,
 a:focus,
@@ -49,7 +50,7 @@ p {
 }
 h2 {
   font-size: 15px;
-  color: #353535 !important;
+  color: #db93b0 !important;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -136,7 +137,7 @@ a:hover {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  color: #353535;
+  color: #0b132b;
 }
 h2 {
   font-size: 1.5em;
@@ -173,7 +174,7 @@ dfn {
   font-style: italic;
 }
 mark {
-  background: #ff0;
+  background: #db93b0;
   color: #000;
 }
 p,
@@ -337,16 +338,16 @@ table {
 }
 .dark-box {
   background: #f3f5f8;
-  -webkit-box-shadow: 0px 3px 0px 0px #e04343;
-  -moz-box-shadow: 0px 3px 0px 0px #e04343;
-  box-shadow: 0px 3px 0px 0px #e04343;
+  -webkit-box-shadow: 0px 3px 0px 0px #0b132b;
+  -moz-box-shadow: 0px 3px 0px 0px #0b132b;
+  box-shadow: 0px 3px 0px 0px #0b132b;
   padding: 20px 0;
 }
 .dark-box:hover,
 .dark-box:focus {
-  -webkit-box-shadow: 0px 3px 0px 0px #ffe801;
-  -moz-box-shadow: 0px 3px 0px 0px #ffe801;
-  box-shadow: 0px 3px 0px 0px #ffe801;
+  -webkit-box-shadow: 0px 3px 0px 0px #db93b0;
+  -moz-box-shadow: 0px 3px 0px 0px #db93b0;
+  box-shadow: 0px 3px 0px 0px #db93b0;
 }
 .box-hover {
   transition: all 500ms ease-in-out;
@@ -376,7 +377,7 @@ table {
 }
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-  color: #e04343;
+  color: #0b132b;
 }
 .content-wrap {
   overflow-y: scroll;
@@ -418,14 +419,14 @@ table {
   bottom: 0.5em;
   left: 0.5em;
   background: linear-gradient(
-    #e04343 20%,
+    #0b132b 20%,
     rgba(0, 0, 0, 0) 20%,
     rgba(0, 0, 0, 0) 40%,
-    #e04343 40%,
-    #e04343 60%,
+    #0b132b 40%,
+    #0b132b 60%,
     rgba(0, 0, 0, 0) 60%,
     rgba(0, 0, 0, 0) 80%,
-    #e04343 80%
+    #0b132b 80%
   );
   content: "";
 }
@@ -457,7 +458,7 @@ table {
   margin: 0 15px;
   text-align: center;
   font-size: 1.2em;
-  color: #353535;
+  color: #db93b0;
 }
 .icon-list a span {
   display: block;
@@ -481,7 +482,7 @@ table {
   transform: translate3d(0, 0, 0);
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  border-bottom: 1px solid #e04343;
+  border-bottom: 1px solid #0b132b;
 }
 .show-menu .icon-list a {
   opacity: 1;
@@ -525,7 +526,7 @@ table {
   text-transform: uppercase;
 }
 .hero h1 span {
-  color: #a1a9b0;
+  color: #db93b0;
   /* display:inline-block; */
 }
 .hero h3 {
@@ -533,7 +534,7 @@ table {
   margin: 0;
   padding: 0;
   opacity: 1;
-  color: #e04343;
+  color: #db93b0;
   letter-spacing: 18px;
   line-height: 50px;
   text-transform: uppercase;
@@ -623,14 +624,14 @@ table {
 h1.arrow {
   font-size: 16px;
   text-transform: uppercase;
-  color: #353535;
+  color: #db93b0;
   letter-spacing: 4px;
   background: url("../img/h1-bg.png") no-repeat center bottom;
   padding-bottom: 30px;
   font-weight: bold;
 }
 h1.arrow span {
-  color: #e04343;
+  color: #0b132b;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -641,11 +642,11 @@ h1.arrow span {
   background-size: cover;
 }
 .color-bg {
-  background: #e04343;
+  background: #0b132b;
 }
 
 .color-bg a {
-  color: #ffe800;
+  color: #db93b0;
 }
 .color-bg h6,
 .color-bg p {
@@ -660,7 +661,7 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn:hover {
   background: #fff;
-  color: #e04343;
+  color: #0b132b;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
@@ -672,7 +673,7 @@ h1.arrow span {
   color: #8c8c8c;
 }
 .color-bg h1.arrow span {
-  color: #ffe800;
+  color: #db93b0;
 }
 .color-bg h1.arrow {
   color: #fff;
@@ -696,12 +697,12 @@ h1.arrow span {
   margin-bottom: 40px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  border: 1px solid #e04343;
-  color: #e04343;
+  border: 1px solid #0b132b;
+  color: #0b132b;
 }
 .services .item:hover .icon {
-  background: #e04343;
-  border: 1px solid #e04343;
+  background: #0b132b;
+  border: 1px solid #0b132b;
 }
 .services .item [class*="fa"] {
   -webkit-transition: all 0.3s ease-out;
@@ -910,7 +911,7 @@ img.grayscale:hover {
 }
 .subscribe input[type="text"] {
   background-color: rgba(255, 255, 255, 0.1);
-  border: solid 1px #ffe800;
+  border: solid 1px #db93b0;
   padding: 20px;
   width: 30%;
   color: #808080;
@@ -920,10 +921,10 @@ img.grayscale:hover {
   outline: none;
 }
 .subscribe input[type="submit"] {
-  background: #ffe800;
-  border: solid 1px #ffe800;
+  background: #db93b0;
+  border: solid 1px #db93b0;
   padding: 20px;
-  color: #e04343;
+  color: #0b132b;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.5s ease;
@@ -932,29 +933,29 @@ img.grayscale:hover {
   -o-transition: all 0.5s ease;
 }
 .subscribe input[type="submit"]:hover {
-  background: rgba(255, 232, 0, 0.9);
-  border: solid 1px #ffe800;
-  color: #e04343;
+  background: rgba(219, 147, 176, 0.9);
+  border: solid 1px #db93b0;
+  color: #0b132b;
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-  background-color: #e04343;
+  background-color: #0b132b;
   padding: 70px 0;
 }
 .outline-btn {
   display: inline-block;
   padding: 25px 40px;
-  color: #ffe801;
-  border: solid 1px #ffe801;
+  color: #db93b0;
+  border: solid 1px #db93b0;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
 }
 .outline-btn:hover,
 .outline-btn:focus {
-  color: #e04343;
-  border: solid 1px #e04343;
-  background: #ffe801;
+  color: #0b132b;
+  border: solid 1px #0b132b;
+  background: #db93b0;
 }
 .weight-outline-btn {
   display: inline-block;
@@ -989,7 +990,7 @@ ul.social-buttons li:last-child {
 .social-btn {
   width: 40px;
   height: 40px;
-  background: #e04343;
+  background: #0b132b;
   display: inline-block;
   color: #fff;
   font-size: 17px;
@@ -998,8 +999,8 @@ ul.social-buttons li:last-child {
 }
 .social-btn:hover,
 .social-btn:focus {
-  background: rgba(255, 232, 0, 1);
-  color: #e04343;
+  background: rgb(219, 147, 176, 0.9);
+  color: #0b132b;
 }
 .social {
   margin-top: 25px;
@@ -1008,10 +1009,10 @@ ul.social-buttons li:last-child {
 .up-btn {
   width: 55px;
   height: 55px;
-  background: rgba(255, 232, 1, 0.9);
+  background: rgba(219, 147, 176, 0.9);
   display: block;
   margin: 0 auto;
-  color: #e04343;
+  color: #0b132b;
   font-size: 18px;
   line-height: 52px;
   text-align: center;
@@ -1025,7 +1026,7 @@ ul.social-buttons li:last-child {
 .up-btn:hover,
 up-btn:focus {
   color: black;
-  background: #ffe800;
+  background: #db93b0;
 }
 .contact-details {
   margin: 70px 0;
@@ -1078,7 +1079,7 @@ up-btn:focus {
 }
 
 .btn-send {
-  background: #e04343;
+  background: #0b132b;
   color: white;
   transition: all 0.4s;
   border-radius: 0;
@@ -1086,8 +1087,8 @@ up-btn:focus {
 }
 
 .btn-send:hover {
-  background: #ffe800;
-  color: #e04343;
+  background: #db93b0;
+  color: #0b132b;
 }
 
 button,
@@ -1149,8 +1150,8 @@ ul.slides li {
   font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-  background: #e04343;
-  border-color: #e04343;
+  background: #0b132b;
+  border-color: #0b132b;
 }
 
 .color-bg .flex-control-paging li a {
@@ -1159,8 +1160,8 @@ ul.slides li {
 }
 
 .color-bg .flex-control-paging li a.flex-active {
-  background: #ffe800;
-  border-color: #ffe800;
+  background: #db93b0;
+  border-color: #db93b0;
 }
 /* ==========================================================================Waypoints========================================================================== */
 .wp1,
@@ -1321,7 +1322,7 @@ ul.slides li {
   }
 }
 
-/** Additions **/
+/** Additions for animation **/
 
 .rotatingText {
   animation: rotate;
