@@ -599,7 +599,7 @@ table {
 .scrollto {
   padding: 150px 0px 0px 0px;
   display: block;
-  color: #fff;
+  color: #db93b0;
   text-decoration: none;
   width: 200px;
   margin: 0 auto;
@@ -773,7 +773,7 @@ i.respons {
   background: rgba(0, 0, 0, 0.6);
   display: inline-block;
   margin: 15px 5px 15px 5px;
-  color: #fff;
+  color: #db93b0;
   font-size: 16px;
   line-height: 40px;
   padding: 0px 10px;
@@ -781,7 +781,7 @@ i.respons {
 }
 .down-arrow-btn:hover,
 .down-arrow-btn:focus {
-  color: #fff;
+  color: #db93b0;
   background: rgba(0, 0, 0, 1);
 }
 .portfolio img {
